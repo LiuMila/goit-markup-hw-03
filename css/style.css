@@ -99,40 +99,38 @@ img{display: block;}
 
 /* SEACTIONS */
     .hero {background: var(--main-color);
-    padding: 188px ;
-padding-bottom: 188px;
+    padding: 188px 473px;
 }
 
-    .hero-text {font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
+    .hero-text {font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
         color: var(--white-color);
     margin-bottom: 48px;
-    max-width: 494px;
+    max-width : 500px;
 
 }
-
     
     .hero-button {font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        display: flex;
         align-items: center;
         letter-spacing: 0.04em;
         cursor: pointer;
         color: var(--white-color);
         background: var(--span-color);
         padding: 16px 32px;
-        gap: 10px;
-        min-width: 169px;
-        height: 56px;}
+        min-width: 169px ;
 
-    .button { }
+     display: block;
+        margin: o auto;
+    }
+
+
+    .button {}
 
     .section {
         padding-top: 120px;
